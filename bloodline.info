@@ -1,0 +1,11 @@
+name = bloodline
+description = this is a test theme for learning theme in drupal 7
+core = 7.x
+stylesheets[all][] = css/mystyle.css
+screenshot = bloodline.png
+
+regions[header] = Header
+regions[content] = Content
+regions[footer] = Footer
+regions[sidebar_first] = Sidebar first
+regions[sidebar_second] = Sidebar second

@@ -1,0 +1,278 @@
+/* ------------------ Overall Styles ------------------ */
+
+html, body {
+	margin: 0px;
+	height: 100%;
+}
+
+#page-wrapper {
+	height: 100%;
+}
+
+#main-wrapper {
+	margin: 50px auto 100px auto;
+	width: 1200px;
+}
+
+/* ------------------ Header Styles ------------------ */
+
+#page-wrapper #header-wrapper {
+	height: 227px;
+	background-image: linear-gradient(to bottom, #251820 0%, #C31D1D 100%);
+}
+
+#page-wrapper #header-wrapper .section {
+	max-width: 1200px;
+	height: 100%;
+	margin: 0 auto 0 auto;
+}
+
+#page-wrapper #header-wrapper #logo {
+	margin-top: 40px;
+	float: left;
+}
+
+#page-wrapper #header-wrapper #logo img {
+	width: 170px;
+}
+
+#page-wrapper #header-wrapper #site-name-slogan {
+	margin-top: 10px;
+	float: left;
+	clear: both;
+}
+
+#page-wrapper #header-wrapper #site-name-slogan a {
+	color: rgba(255, 255, 255, 0.90);
+	font-size: 2em;
+}
+
+#page-wrapper #header-wrapper #site-name-slogan a {
+	text-decoration: none;
+}
+
+#main-menu {
+	float: left;
+	clear: both;
+	margin-top: 39px;
+}
+
+#main-menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+#main-menu #main-menu-links li {
+	display: inline;
+
+}
+
+#main-menu #main-menu-links li a {
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: black;
+    border-radius: 7px;
+    background-color: rgba(255,255,255,0.60);
+    margin-right: 4px;
+}
+
+#main-menu #main-menu-links li a:hover:not(.active) {
+    background-color: white;
+}
+
+#main-menu #main-menu-links li .active {
+	background-color: white;
+}
+
+/* ------------------ Content Styles ------------------ */
+
+.content .contextual-links-region {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.80);
+}
+
+.content .contextual-links-region h2 a {
+	text-decoration: none;
+	color: black;
+	font-weight: normal;
+	font-size: 30px;
+}
+
+.content .contextual-links-region h2 a:hover {
+	text-decoration: underline;
+}
+
+.content .contextual-links-region .submitted {
+	margin-top: -7px;
+	margin-bottom: 7px;
+}
+
+.content .contextual-links-region .submitted span {
+	color: rgba(0, 0, 0, 0.75);
+}
+
+.content .contextual-links-region .submitted span a {
+	text-decoration: none;
+	color: #C14545;
+}
+
+.content .contextual-links-region .submitted span a:hover {
+	text-decoration: underline;
+	color: #C14545;
+}
+
+.content .field-name-field-tags .field-item {
+	margin-top: 5px;
+}
+
+.content .field-name-field-tags .field-item a,
+.content .inline a {
+	text-decoration: none;
+	color: #C14545
+}
+
+.content .field-name-field-tags .field-item a:hover,
+.content .inline a:hover {
+	text-decoration: underline;
+	color: #C14545
+}
+
+.content .inline {
+	float: right;
+}
+
+/* ------------------ Footer Styles ------------------ */
+
+#footer-wrapper {
+	height: 230px;
+	background-color: #24272c;
+	padding-top: 80px;
+}
+
+#page-wrapper #footer-wrapper #footer {
+	width: 1200px;
+	margin: 0 auto 0 auto;
+	border-top: solid white 0.1px;
+	padding-top: 17px;
+}
+
+#page-wrapper #footer-wrapper #footer span {
+	color: rgba(255,255,255,0.80);
+}
+
+#page-wrapper #footer-wrapper #footer span a {
+	text-decoration: none;
+	color: white;
+}
+
+#page-wrapper #footer-wrapper #footer span a:hover {
+	text-decoration: underline;
+	color: rgba(255,255,255,0.80);
+}
+
+/* ------------------ Node Styles ------------------ */
+
+#main-wrapper #page-title {
+	margin-top: 50px;
+	margin-bottom: 35px;
+	font-weight: normal;
+	font-size: 36px;
+}
+
+#main-wrapper .tabs ul {
+	padding: 0 0 7px 0;
+}
+
+#main-wrapper .tabs ul a {
+	color: black;
+	text-align: center;
+    padding: 8px 14px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.content .submitted {
+	margin: 10px 0;
+}
+
+.content .submitted span {
+	color: rgba(0, 0, 0, 0.75);
+}
+
+.content .submitted span a {
+	text-decoration: none;
+	color: rgba(0, 0, 0, 0.75);
+}
+
+.content .submitted span a:hover {
+	text-decoration: underline;
+	color: rgba(0, 0, 0, 1);
+}
+
+.content .field-type-text-with-summary {
+	margin-bottom: 50px;
+}
+
+.content #comments h2 {
+	font-weight: normal;
+}
+
+.content #comments .comment-form label {
+	float: left;
+	font-size: 0.9em;
+	width: 120px;
+	margin-bottom: 10px;
+}
+
+.content #comments a {
+	text-decoration: none;
+	color: #C14545;
+}
+
+.content #comments a:hover {
+	text-decoration: underline;
+}
+
+.content #comments .comment-form select {
+	padding: 5px;
+	border-radius: 4px;
+	margin-top: -5px;
+}
+
+.content #comments .comment-form #edit-submit,
+.content #comments .comment-form #edit-preview {
+	padding: 5px;
+	margin-right: 7px;
+}
+
+/* ------------------ Node Styles ------------------ */
+/* ------------------ From Bartik ------------------ */
+
+body,
+#site-slogan,
+.ui-widget,
+.comment-form label {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+#header,
+#footer-wrapper,
+#skip-link,
+ul.contextual-links,
+ul.links,
+ul.primary,
+.item-list .pager,
+div.field-type-taxonomy-term-reference,
+div.messages,
+div.meta,
+p.comment-time,
+table,
+.breadcrumb {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+input,
+textarea,
+select,
+a.button {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+}
